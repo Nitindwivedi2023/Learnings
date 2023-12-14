@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styling.css">
+</head>
+
+<body>
+    <script src="logic.js"></script>
+    <div class="card">
+        <h1>Sign up page</h1>
+        <form class="text">
+            <input onchange="nameValid()" type="text" id="name" placeholder="User name" required></input>
+            <span id="name_error" value=""></span>
+            <br/>
+            <br>
+            <input onchange="emailValid()" type="email" id="email" placeholder="User email" required></input>
+            <span id="email_error" value=""></span>
+            <br>
+            <br>
+            <input onchange="numberValid()" type="number" id="number" placeholder="User phone number" required></input>
+            <span id="number_error" value=""></span>
+            <br />
+            <br>
+            <input type="password" id="password" placeholder="User password" required></input>
+            <br />
+            <br>
+            <input onchange="passwordValid()" type="password" id="confirmpassword" placeholder="User password" required></input>
+            <span id="password_error" value=""></span>
+            <br>
+            <br>
+            <br>
+            <button onclick="userData()"> submit </button>
+        </form>
+    </div>
+    
+
+</body>
+
+</html>

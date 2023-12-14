@@ -1,0 +1,39 @@
+
+label,.text{
+    display: inline-block;
+    width: 200px;
+    text-align: right;
+    /* align-items: center; */
+}
+span{
+    text-align: right;
+    display: inline-block;
+    /* margin-right:50px; */
+    color: rgb(216, 22, 22);
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(219, 142, 34, 0.3);
+    width: 50%;
+    background-color: bisque;
+    text-align: center;
+    margin: 0 auto; /* Added */
+    
+    margin-top: 100px; /* Added */
+    /* align-self: center; */
+    }
+    /* .text {
+    padding: 2px 3px;
+    } */
+input{
+    width: 25em;  height: 2em;
+    align-content: right;
+    border-color: white;
+    border-radius: 4px;
+}
+button{
+    width: 10em;  height: 3em;
+    /* margin:0 ; */
+    /* margin-left: 575px; Added */
+    text-align: center;
+    position: center;
+}
