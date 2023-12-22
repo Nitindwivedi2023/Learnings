@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+.rectangle {
+  display: inline-block;
+  min-width: 100px;
+  min-height: 100px;
+  background: rgb(229, 176, 176);
+}
+.color{
+  background-color: #22458a;
+}
+/* App.css */
+div.image{
+  content:url(mario.png);
+  max-width: 120px;
+  max-height: 120px;
+}
+.wall{
+  content:url(wall.jpeg);
+  max-width: 120px;
+  max-height: 120px;
+}​
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(1, 3fr);
+  /* gap: 10px; */
+  padding: 100px;
+
+  /* margin-top: 5px; */
+}
+button{
+  padding: 10px;
+  border-radius: 50px;
+  background-color: #d34714;
+  
+}
+.App{
+  background-color: #0c696d;
+}
+.right{
+  margin-left: 100px;
+}
+/* .left{
+  margin-right: 8px;
+} */
+.grid-row {
+  justify-content: center;
+  display: flex;
+  /* padding: 100px; */
+}
+
+.grid-cell {
+  border: 1px solid #ddd;
+  max-width: 120px;
+  max-height: 120px;
+  min-width: 120px;
+  min-height: 120px;
+  /* padding: 40px; */
+  text-align: center;
+  flex: auto;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
